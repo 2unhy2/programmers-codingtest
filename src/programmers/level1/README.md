@@ -1,4 +1,5 @@
-# 유연근무제 (Programmers Level 1)
+# (Programmers Level 1)
+## 유연근무제
 i : 직원
 j : 날짜
 day : 요일
@@ -23,3 +24,11 @@ day - 이번 날짜가 무슨 요일인지 확인
 
 시간 복잡도: O(N × 7)
 공간 복잡도: O(1)
+
+##
+## K번째수
+- 배열을 명령에 따라 자르고 → 정렬 → k번째 값 선택하는 문제
+- 핵심 개념: 배열 슬라이싱, 정렬, 1-based → 0-based 인덱스 변환
+
+어려웠던 점
+Arrays.copyOfRange(array, start, end) 함수는 start는 포함하지만 end는 미포함임. 즉 end를 정의할땐 -1을 안함.
